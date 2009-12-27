@@ -1,0 +1,29 @@
+.ds q \N'34'
+.TH RANDOM __drivermansuffix__ __vendorversion__
+.SH NAME
+random \- Example X.Org input driver
+.SH SYNOPSIS
+.nf
+.B "Section \*qInputDevice\*q"
+.BI "  Identifier \*q" devname \*q
+.B  "  Driver \*qrandom\*q"
+.BI "  Option \*qDevice\*q   \*q" devpath \*q
+\ \ ...
+.B EndSection
+.fi
+.SH DESCRIPTION
+.B random 
+is an example __xservername__ input driver It reads from /dev/urandom and
+moves the pointer along the X axis by a random number of pixels.
+.PP
+.SH EMPTY MANPAGE
+This is an example driver, hence the man page is not particularly useful.
+For a better structure of the man page, including which sections to use in a
+new man page see the 
+.B evdev(4)
+man page.
+
+
+.SH "SEE ALSO"
+__xservername__(__appmansuffix__), __xconfigfile__(__filemansuffix__), Xserver(__appmansuffix__), X(__miscmansuffix__),
+README.mouse.

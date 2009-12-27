@@ -1,0 +1,29 @@
+.ds q \N'34'
+.TH MAGIC MOUSE __drivermansuffix__ __vendorversion__
+.SH NAME
+magicmouse \- X.Org input driver
+.SH SYNOPSIS
+.nf
+.B "Section \*qInputDevice\*q"
+.BI "  Identifier \*q" devname \*q
+.B  "  Driver \*qrandom\*q"
+.BI "  Option \*qDevice\*q   \*q" devpath \*q
+\ \ ...
+.B EndSection
+.fi
+.SH DESCRIPTION
+.B magicmouse
+is a driver for the Apple Magic Mouse with multi-touch support.
+.PP
+.SH TODO
+Finish this.
+This is an example driver, hence the man page is not particularly useful.
+For a better structure of the man page, including which sections to use in a
+new man page see the 
+.B evdev(4)
+man page.
+
+
+.SH "SEE ALSO"
+__xservername__(__appmansuffix__), __xconfigfile__(__filemansuffix__), Xserver(__appmansuffix__), X(__miscmansuffix__),
+README.mouse.
