@@ -1,0 +1,4 @@
+xf86-input-magicmouse
+
+This is an Xorg module for the Apple Magic Mouse. It is intended to
+support the touchpad style features of the magic mouse.
