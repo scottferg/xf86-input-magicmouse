@@ -1,0 +1,6 @@
+sdkdir=@sdkdir@
+
+Name: xorg-evdev
+Description: X.Org Apple Magic Mouse driver.
+Version: @PACKAGE_VERSION@
+Cflags: -I${sdkdir}
