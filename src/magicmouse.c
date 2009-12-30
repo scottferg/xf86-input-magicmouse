@@ -154,7 +154,7 @@ static InputInfoPtr MagicMousePreInit(InputDriverPtr  drv,
     /* TODO this will need to be changed */
     pMagic->device = xf86SetStrOption(dev->commonOptions,
                                       "Device",
-                                      "/dev/random");
+                                      "/dev/input/mice");
 
     xf86Msg(X_INFO, "%s: Using device %s.\n", pInfo->name, pMagic->device);
 
@@ -201,7 +201,7 @@ static int
 _magicmouse_init_buttons(DeviceIntPtr device)
 {
     InputInfoPtr        pInfo = device->public.devicePrivate;
-    MagicMouseDevicePtr     pMagic = pInfo->private;
+    MagicMouseDevicePtr pMagic = pInfo->private;
     CARD8               *map;
     int                 i;
     int                 ret = Success;

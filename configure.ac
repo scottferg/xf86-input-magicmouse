@@ -67,7 +67,7 @@ AC_SUBST([sdkdir])
 # Checks for header files.
 AC_HEADER_STDC
 
-DRIVER_NAME=random
+DRIVER_NAME=magicmouse
 AC_SUBST([DRIVER_NAME])
 
 AC_OUTPUT([Makefile
