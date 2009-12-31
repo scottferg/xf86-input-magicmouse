@@ -1,3 +1,6 @@
+NOTE: THIS CODE DOES NOT DO MUCH YET. THIS FILE WILL BE CHANGED WHEN
+THE CODE IS TESTABLE.
+
 xf86-input-magicmouse
 
 This is an Xorg module for the Apple Magic Mouse. It is intended to
@@ -8,3 +11,10 @@ Build dependencies:
 
 xorg-macros
 pkgconfig
+
+
+Build and Install:
+
+./autogen.sh --prefix=/usr
+make
+make install
