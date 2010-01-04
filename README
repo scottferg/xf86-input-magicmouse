@@ -1,6 +1,15 @@
 NOTE: THIS CODE DOES NOT DO MUCH YET. THIS FILE WILL BE CHANGED WHEN
 THE CODE IS TESTABLE.
 
+I began this project guessing that all of the necessary bluetooth
+information would be passed to the level where an xorg module could
+use it. This is not the case and I am currently working on getting
+all of the touch data from the mouse. For those of you githubbers (and
+any others) interested in helping out, please meet in #magicmouse on
+irc.freenode.net. 
+
+
+
 xf86-input-magicmouse
 
 This is an Xorg module for the Apple Magic Mouse. It is intended to
